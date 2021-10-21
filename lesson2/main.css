@@ -1,0 +1,111 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*nav*/
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.meny li {
+    margin-right: 30px;
+
+
+}
+
+.menu li a {
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.phone {
+    margin-left: auto;
+
+}
+
+/*main*/
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+main photo{
+
+}
+.amsterdam1{
+    width: 350px;
+    height: 200px;
+
+}
+.program{
+    display: flex;
+
+}
+.program button{
+    width: 250px;
+    height: 60px;
+    background-color: #7abbfc;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+.image {
+    margin-bottom: 5px;
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.info-price {
+    display: flex;
+    align-items: center;
+}
+.info-price span{
+    font-size: 16px;
+    margin-right: 85px;
+
+}
+.info-price button {
+    background: #69b469;
+    width: 150px;
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+
+
+}
