@@ -1,0 +1,40 @@
+.h100{
+    height: 100px;
+    width: 100%;
+}
+.h400{
+    height: 400px;
+}
+.txt-color{
+    color: white;
+}
+.container{
+    width: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #040483;
+
+
+}
+nav{
+    background-color: #295f72;
+}
+.content{
+    display: flex;
+
+}
+.main{
+    width: 70%;
+    background-color: #047883;
+}
+.aside{
+    width: 30%;
+    background-color: #04834e;
+}
+footer{
+    background-color: rebeccapurple;
+}

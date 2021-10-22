@@ -1,0 +1,42 @@
+
+.container{
+    width: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+.txt-color{
+    font-size: 20px;
+    color: black;
+}
+.h100{
+    width: 100%;
+    height: 100px;
+    background-color: #e3e395;
+    margin: 10px 0;
+
+}
+.h200{
+    width: 100%;
+    height: 200px;
+    background-color: skyblue;
+}
+.br{
+    border: 1px solid black;
+}
+.main{
+    display: flex;
+    column-gap: 10px;
+
+}
+#menu{
+    width: 40%;
+    background-color: #69b469;
+
+}
+#post{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}

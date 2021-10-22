@@ -1,0 +1,35 @@
+.container{
+    width: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: white;
+}
+
+.bg-blu{
+    background-color: #23237a;
+}
+.bg-sblu{
+    background-color: #4a7c8f;
+}
+.h300{
+    height: 300px;
+}
+.h200{
+    height: 200px;
+
+}
+.w200{
+    width: 200px;
+}
+
+.w100prcnt{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    column-gap: 10px;
+    margin: 10px 0;
+    text-align: center;
+
+}
