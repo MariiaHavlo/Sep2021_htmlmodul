@@ -1,0 +1,51 @@
+@media screen and (max-width: 400px){
+    .container{
+        background-color: #1f033a;
+        width: 400px;
+    }
+    .bg-gray{
+        background-color: #1f033a;
+    }
+    .txt-gray{
+        text-align: center;
+    }
+    .h5,.w40,.w20 {
+        background-color: white;
+    }
+    .h100{
+        margin: 0 auto;
+
+    }
+    .h100{
+        background-color: gray;
+    }
+    .menu{
+        width: 350px;
+    }
+    .menu-item{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    .menu-box{
+        flex-wrap: wrap;
+    }
+    .item{
+        height: 600px;
+    }
+    .item-all{
+        width: 400px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+
+    }
+
+    .item-block{
+        width: 300px;
+    }
+    .highlight{
+      border: none;
+        width: 300px;
+    }
+}

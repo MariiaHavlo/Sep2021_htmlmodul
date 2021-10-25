@@ -1,0 +1,83 @@
+@media screen and (max-width: 420px) {
+
+    .container{
+        width: 420px;
+    }
+
+    .nav{
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    .logo{
+        background-color: #f3f3ad;
+    }
+
+    .item{
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+    .button{
+        width: 150px;
+        height: 60px;
+        background-color: #225d22;
+    }
+    .blok-about-us{
+        max-width: 420px;
+        border: none;
+    }
+    .about-us-product{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+        color: white;
+    }
+    .h200{
+        background-color: #7abbfc;
+    }
+    .subtitle{
+        color: #801818;
+        font-size: 36px;
+    }
+    .catalog{
+        flex-wrap: wrap;
+    }
+    .menu-item{
+        width: 100%;
+    }
+    .txt-gray{
+        color: #071f3b;
+    }
+    .catalog{
+        background-color: #514f52;
+    }
+    .higlight{
+        width: 350px;
+    }
+    .line{
+        width: 350px;
+    }
+    .menu-price{
+        justify-content: space-around;
+    }
+    .subtitle-menu{
+        color: white;
+        text-align: center;
+    }
+    .delivery{
+        display: block;
+    }
+    .w30{
+        width: 60px;
+    }
+    .h30{
+       height: 60px;
+    }
+    .select{
+        display: none;
+    }
+}
