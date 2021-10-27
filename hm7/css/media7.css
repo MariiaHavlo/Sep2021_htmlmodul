@@ -1,0 +1,138 @@
+@media screen and (max-width: 320px) {
+    .wrapper {
+        max-width: 290px;
+    }
+
+    .header__top{
+        padding-top: 26px;
+    }
+    .header__logo{
+        width: 45px;
+    }
+    .header__logo_img {
+        width: 45px;
+        height: 31px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__burger {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+
+    }
+    .header__main{
+        margin-bottom: 259px;
+    }
+
+    .header__title {
+        width: 276px;
+    }
+
+    .header__title h2 {
+        font-size: 28px;
+        line-height: 34px;
+
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 45px ;
+    }
+    .header__title p::before, .header__title p::after{
+        display: none;
+    }
+
+    .aboutUs__menu{
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        margin-bottom: 75px;
+
+    }
+    .aboutUs__menu_title{
+        width: 290px;
+    }
+    .aboutUs__history_img img{
+        width: 290px;
+    }
+    .aboutUs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .history{
+        width: 320px;
+    }
+    .history__list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .order{
+        margin-bottom: 0;
+    }
+    .order__main{
+        flex-direction: column;
+        padding: 20px 0 30px 0;
+    }
+    .order__text{
+        width: 290px;
+        text-align: center;
+        margin-bottom: 41px;
+    }
+    .order__text h3{
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+
+    .dish{
+        width: 320px;
+    }
+    .dish h2{
+        font-size: 40px;
+        line-height: 46px;
+        width: 176px;
+        text-align: center;
+        margin: 63px auto;
+    }
+    .dish__main{
+        flex-direction: column;
+    }
+    .dish__menu_item{
+        width: 305px;
+        margin: 50px auto;
+    }
+    .dish__img_pizza img{
+        width: 320px;
+    }
+    .dish__line{
+        display: none;
+    }
+    .dish__menu_block{
+        column-gap: 5px;
+    }
+    .dish__menu_text{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 157px;
+    }
+    .dish__menu_text p{
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
