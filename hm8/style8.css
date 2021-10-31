@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0 auto;
+}
+.header{
+    background: url("image/bg.png") no-repeat center/cover;
+    height: 800px;
+}
+.header__top{
+    padding-top: 50px;
+}
+
+.burger_menu{
+    display: none;
+}
+.header__burger_line{
+    background: #FF7400;
+    border-radius: 50px;
+    width: 30px;
+    height: 3px;
+}
+
+.header__nav_menu{
+    border-right: 1px solid white;
+
+}
+.header__nav_contact{
+    padding-left: 10px;
+}
+.nav-link{
+    color: white;
+}
+.header__contact_text{
+    color: white;
+    width: 154px;
+}
+.header__contact_text p{
+    font-size: 14px;
+    line-height: 19px;
+
+}
+.btn-primary{
+    background-color: #FF7400;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    border-radius: unset;
+
+}
+
+.header__main{
+    margin-top: 200px;
+}
+
+.header__text h1{
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.header__text h2{
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.header__text p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.header__text p::before, .header__text p::after{
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    width: 61px;
+    height: 2px;
+}
+.button{
+    margin-top: 20px;
+}
+
+.aboutUs__card{
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+}
+.card{
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+}
+.card-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.card-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+.brown{
+    color: #BC9060;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 87px;
+}
+
+.aboutUs__main{
+    margin-top: 150px;
+}
+.aboutUs__main_text h2{
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.aboutUs__main_text p{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+
+.order{
+    background: url("image/bg-order.png") no-repeat center/cover;
+    margin-top: 80px;
+}
+.order__main{
+    margin: 80px auto;
+}
+
+.order__text h3{
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    margin-bottom: 20px;
+}
+.order__text p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}

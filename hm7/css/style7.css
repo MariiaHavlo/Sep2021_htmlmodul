@@ -51,7 +51,7 @@ table {
 }
 
 .header{
-    height: 800px;
+    /*height: 800px;*/
     background: url("/hm7/restaurant_template/image/bg.png") no-repeat center/cover;
 }
 .header__top{

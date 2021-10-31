@@ -1,0 +1,18 @@
+@media screen and (max-width: 400px){
+.airColled h1{
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+}
+
+    .img{
+        width: 400px;
+    }
+
+    .production__text h2{
+        text-align: center;
+    }
+    .item__last{
+        margin-left: 0;
+    }
+}
